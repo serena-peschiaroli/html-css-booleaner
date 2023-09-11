@@ -40,3 +40,6 @@
     display: block;
     font-size: 10px;
 }
+.highlight {
+    background-color: yellow;
+}
