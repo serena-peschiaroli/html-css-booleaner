@@ -2,7 +2,7 @@
     display: block;
     background-image: url(../img/pattern.png);
     background-size: contain;
-    background-color: blue;
+    background-color: rgb(104, 104, 231);
     height: 100px;
 
     
@@ -13,4 +13,30 @@
     margin-right: auto;
     float: left;
     width: 100px;
+    padding-top: 40px;
+}
+.heading {
+    display: block;
+    line-height: 10px;
+ 
+}
+.autore {
+    display: block;
+    line-height: 5px;
+    color: grey;
+}
+.data {
+    display: block;
+    line-height: 0px;
+    color: grey;
+    font-size: 8px;
+}
+
+.bool {
+    color: aqua;
+}
+
+.caption {
+    display: block;
+    font-size: 10px;
 }
