@@ -43,3 +43,13 @@
 .highlight {
     background-color: yellow;
 }
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tab-header {
+    background-color: rgb(8, 112, 240);
+
+}
