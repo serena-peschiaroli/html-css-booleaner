@@ -44,12 +44,41 @@
     background-color: yellow;
 }
 
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even){background-color: rgb(149, 235, 246)}
+  
+  th {
+    background-color: #57bff4;
+    color: white;
+  }
+/*
 .table {
     width: 100%;
     border-collapse: collapse;
+    
 }
+tr:nth-child(odd) {
+    background-color: aqua;
+}
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
 
 .tab-header {
     background-color: rgb(8, 112, 240);
+    width: 100%;
+    border-collapse: collapse;
 
 }
+*/
