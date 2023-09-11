@@ -67,9 +67,27 @@ table {
     background-color: #57bff4;
     color: white;
   }
+  .imghead {
+    display: block;
+    padding: 7px;
+    color:grey;
+    font-weight: bold;
+    
+  }
   .bottom-imgs1 , .bottom-imgs2 {
     display: block;
+    position: relative;
+    
   }
+.caption2 {
+   position: absolute;
+   font-size: 20px;
+   font-weight: bold;
+   color: white;
+   top: 15px;
+   left: 30px;
+
+}
   
 /*
 .table {
