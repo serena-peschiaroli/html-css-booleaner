@@ -1,6 +1,5 @@
 .header-container {
     padding-top: 40px;
-    display: block;
     background-image: url(../img/pattern.png);
     background-size: 240px;
     background-color: #4ea0ff;
@@ -8,10 +7,6 @@
     
 }
 .logo{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    float: left;
     padding-top: 40px;
     height: 50px;
 }
@@ -57,11 +52,12 @@ table {
     text-align: left;
     padding: 2px;
     width: 10px;
-    word-wrap: break-word;
-           
+    word-wrap: break-word;       
   }
   
-  tr:nth-child(even){background-color: rgb(149, 235, 246)}
+  tr:nth-child(even){
+    background-color: rgb(149, 235, 246)
+  }
   
   th {
     background-color: #57bff4;
