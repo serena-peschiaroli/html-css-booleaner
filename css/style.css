@@ -1,9 +1,9 @@
 .header-container {
+    padding-top: 40px;
     display: block;
     background-image: url(../img/pattern.png);
-    background-size: contain;
-    background-color: rgb(104, 104, 231);
-    height: 100px;
+    background-size: 240px;
+    background-color: #4ea0ff;
 
     
 }
@@ -12,8 +12,8 @@
     margin-left: auto;
     margin-right: auto;
     float: left;
-    width: 100px;
     padding-top: 40px;
+    height: 50px;
 }
 .heading {
     display: block;
@@ -89,25 +89,3 @@ table {
 
 }
   
-/*
-.table {
-    width: 100%;
-    border-collapse: collapse;
-    
-}
-tr:nth-child(odd) {
-    background-color: aqua;
-}
-th, td {
-    text-align: left;
-    padding: 8px;
-}
-
-
-.tab-header {
-    background-color: rgb(8, 112, 240);
-    width: 100%;
-    border-collapse: collapse;
-
-}
-*/
