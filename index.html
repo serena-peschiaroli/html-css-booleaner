@@ -1,120 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Html Css Booleaner</title>
+    <title>The Booleaner</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-<!-- header -->
-   <header>
-    <!-- logo + background intestazione -->
-    <div class="header-container">
-        <img class="logo" src="img/logo.svg" alt="logo">
 
-    </div>
-    <!-- /logo + background intestazione -->
- <!-- Titolo -->
-    <div class="heading">
-        <h1>Internet deve essere al servizio del "bene pubblico": il manifesto di Tim Berners-Lee</h1>
-    </div>
-    <!-- autore -->
-    <div class="autore"> 
-        <h5>Scritto da <span class="bool">The Booleaner </span> </h5>
-    </div>
-      <!-- data -->
-    <div class="data"> 
-        <p>il 10/10/2020</p>
-    </div> 
-   </header>
-   <!-- header -->
+<body>
+    <!-- header -->
+    <header class="header">
+        <!-- logo + background intestazione -->
+        <div class="header-container">
+            <img class="logo" src="img/logo.svg" alt="logo">
+        </div>
+        <!-- /logo + background intestazione -->
+        <!-- Titolo -->
+        <div class="heading">
+            <h1>Internet deve essere al servizio del "bene pubblico": il manifesto di Tim Berners-Lee</h1>
+        </div>
+        <!-- autore -->
+        <div class="autore">
+            <h5>Scritto da <span class="bool">The Booleaner</span></h5>
+        </div>
+        <!-- data -->
+        <div class="data">
+            <p>il 10/10/2020</p>
+        </div>
+    </header>
+    <!-- header -->
     <main>
         <!-- sezione img -->
-      <section>
-        <div class="item-img">
-            <img src="img/tim-1.jpg">
-            <img src="img/tim-2.jpg">
-        <!-- didascalia -->
-            <span class="caption">
-                1st Photo: John S. and James L Knight Foundation, by Scott Henrichsen
-            </span>
-            <span class="caption">
-                2nd Photo: Wikimedia, by Paul Clarke.
-            </span>
-        </div>         
-      </section> 
-    <!-- sez paragrafo -->
-    <section>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<span class="highlight">Enim laborum asperiores, iure aut omnis voluptatibus dignissimos praesentium ipsa </span>  odit culpa quae facilis libero, reiciendis, magnam quibusdam repudiandae exercitationem atque sapiente!</p>
-    </section>
-    <!-- /sez paragrafo -->
-    <!-- sez lista -->
-    <section>
-        <ul>
-            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi molestias nam sunt omnis officia!</li>
-            <li>Asperiores incidunt sed assumenda adipisci nesciunt nostrum possimus esse ut reiciendis!</li>
-            <li>Nihil reprehenderit voluptas maiores dolorem.</li>
-        </ul>
-    </section>
-    <!-- /sez lista -->
-    <!-- sez tab -->
-    <section>
-
-        <table>
-            <tr>
-              <th>Lorem Ipsum Dolor</th>
-              <th>Lorem Ipsum Dolor</th>
-              <th>Lorem Ipsum Dolor</th>
-            </tr>
-            <tr>
-              <td>Lorem Ipsum Dolor</td>
-              <td>Lorem Ipsum Dolor</td>
-              <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque ipsa sint est odit repellat, veritatis harum voluptatem at accusamus dolorum modi labore ex nisi illo animi ea. At, alias ipsum. </td>
-            </tr>
-            <tr>
-                <td>Lorem Ipsum Dolor</td>
-                <td>Lorem Ipsum Dolor</td>
-                <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque ipsa sint est odit repellat, veritatis harum voluptatem at accusamus dolorum modi labore ex nisi illo animi ea. At, alias ipsum.</td>
-            </tr>
-            <tr>
-                <td>Lorem Ipsum Dolor</td>
-                <td>Lorem Ipsum Dolor</td>
-                <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque ipsa sint est odit repellat, veritatis harum voluptatem at accusamus dolorum modi labore ex nisi illo animi ea. At, alias ipsum. </td>
-            </tr>
-            <tr>
-          </table>
-    </section>
-    <!-- /sez tab -->
-    <!-- sect paragraph2 -->
-    <section>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ad in perspiciatis eum maiores ex fugiat necessitatibus neque repellat maxime, dolores esse dolorum. <span class="highlight">Adipisci tempore vero repudiandae culpa a sint! Lorem ipsum dolor sit amet </span> consectetur adipisicing elit. Dolores accusantium placeat laboriosam doloribus consectetur maiores officia quisquam obcaecati, quae, voluptatibus, hic cupiditate ad et quo repudiandae commodi modi. Dolor, odio.</p>
-    </section>
-    <!-- /sect paragraph2 -->
-    <!-- sect img -->
-    <section>
-        <span class="imghead"> Potrebbero interessarti</span>
-        <div class="bottom-imgs1">
-            <img src="img/monitor.jpg" alt="">
-            <span class="caption2">
-                Lorem Ipsum Dolor
-            </span>
-        </div>
-        <div class="bottom-imgs2">
-            <img src="img/graph.jpg" alt="">
-            <span class="caption2">
-                Lorem Ipsum Dolor
-            </span>
-        </div>
-    </section>
-    <!-- /sect img -->
+        <section>
+            <div class="item-img">
+                <div class="img-wrapper">
+                    <div class="col">
+                        <img src="img/tim-1.jpg" alt="Tim Berners-Lee speaking">
+                    </div>
+                    <div class="col">
+                        <img src="img/tim-2.jpg" alt="Tim Berners-Lee">  
+                    </div>
+                     
+                </div>  
+                <!-- didascalia -->
+                <div class="img-subheading">
+                    <span class="caption">1st Photo: John S. and James L Knight Foundation, by Scott Henrichsen</span>
+                    <span class="caption">2nd Photo: Wikimedia, by Paul Clarke</span>  
+                </div>
+                
+            </div>
+        </section>
+        <!-- sez paragrafo -->
+        <section>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<span class="highlight">Enim laborum asperiores,
+                    iure aut omnis voluptatibus dignissimos praesentium ipsa</span> odit culpa quae facilis libero,
+                reiciendis, magnam quibusdam repudiandae exercitationem atque sapiente!</p>
+        </section>
+        <!-- /sez paragrafo -->
+        <!-- sez lista -->
+        <section>
+            <ul>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi molestias nam sunt omnis officia!
+                </li>
+                <li>Asperiores incidunt sed assumenda adipisci nesciunt nostrum possimus esse ut reiciendis!</li>
+                <li>Nihil reprehenderit voluptas maiores dolorem.</li>
+            </ul>
+        </section>
+        <!-- /sez lista -->
+        <!-- sez tab -->
+        <section>
+            <table class="table">
+                <tr>
+                    <th>Lorem Ipsum Dolor</th>
+                    <th>Lorem Ipsum Dolor</th>
+                    <th>Lorem Ipsum Dolor</th>
+                </tr>
+                <tr>
+                    <td>Lorem Ipsum Dolor</td>
+                    <td>Lorem Ipsum Dolor</td>
+                    <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque ipsa sint est odit repellat,
+                        veritatis harum voluptatem at accusamus dolorum modi labore ex nisi illo animi ea. At, alias
+                        ipsum.</td>
+                </tr>
+                <tr>
+                    <td>Lorem Ipsum Dolor</td>
+                    <td>Lorem Ipsum Dolor</td>
+                    <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque ipsa sint est odit repellat,
+                        veritatis harum voluptatem at accusamus dolorum modi labore ex nisi illo animi ea. At, alias
+                        ipsum.</td>
+                </tr>
+                <tr>
+                    <td>Lorem Ipsum Dolor</td>
+                    <td>Lorem Ipsum Dolor</td>
+                    <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque ipsa sint est odit repellat,
+                        veritatis harum voluptatem at accusamus dolorum modi labore ex nisi illo animi ea. At, alias
+                        ipsum.</td>
+                </tr>
+            </table>
+        </section>
+        <!-- /sez tab -->
+        <!-- sect paragraph2 -->
+        <section class="paragraph-3">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ad in perspiciatis eum maiores ex fugiat
+                necessitatibus neque repellat maxime, dolores esse dolorum. <span class="highlight">Adipisci tempore
+                    vero repudiandae culpa a sint! Lorem ipsum dolor sit amet</span> consectetur adipisicing elit.
+                Dolores accusantium placeat laboriosam doloribus consectetur maiores officia quisquam obcaecati, quae,
+                voluptatibus, hic cupiditate ad et quo repudiandae commodi modi. Dolor, odio.</p>
+        </section>
+        <!-- /sect paragraph2 -->
+        <!-- Buttons section -->
+        <section class="button-section">
+            <button class="btn-primary">Learn More</button>
+            <button class="btn-secondary">Contact Us</button>
+        </section>
+        <!-- /Buttons section -->
+        <!-- sect img -->
+        <section>
+            <span class="imghead">Potrebbero interessarti</span>
+            <div class="bottom-imgs1">
+                <img src="img/monitor.jpg" alt="Monitor">
+                <span class="caption2">Lorem Ipsum Dolor</span>
+            </div>
+            <div class="bottom-imgs2">
+                <img src="img/graph.jpg" alt="Graph">
+                <span class="caption2">Lorem Ipsum Dolor</span>
+            </div>
+        </section>
+        <!-- /sect img -->
     </main>
 
     <footer>
-        <p>Created amidst blood and suffering</p>
-
-    </footer> 
+        <p>The Booleaner &copy; All Rights reserved</p>
+    </footer>
 </body>
 
 </html>
